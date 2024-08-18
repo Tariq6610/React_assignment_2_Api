@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
-import Getdata from './assets/components/Api'
+import Getdata from './components/Api.jsx'
 import {createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider} from "react-router-dom"
-import Layout from './assets/components/RootLayout.jsx'
-import Product from './assets/components/product.jsx'
+import Layout from './components/RootLayout.jsx'
+import Product from './components/product.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
