@@ -7,11 +7,12 @@ import {createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProv
 import Layout from './components/RootLayout.jsx'
 import Product from './components/product.jsx'
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
         <Route path='' element={<Getdata/>} />
-        <Route path='product/:id' element={<Product />}/>
+        <Route path='Product/:id' element={<Product />}/>
     </Route>
   )
 )

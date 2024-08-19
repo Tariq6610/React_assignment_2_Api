@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export default function Card(props){
   const recipes = props.data.recipes
-  console.log(recipes);
   const tagColors = ["primary","secondary","success","danger","warning","info","dark"]
   
     return (
@@ -25,7 +24,7 @@ export default function Card(props){
             </div>
             <div>
             <button className="btn btn-warning fw-bold">
-             <Link to={`product/${data.id}`} style={{textDecoration: "none", color: "black"}}  > check item </Link> 
+             <Link to={`Product/${data.id}`} style={{textDecoration: "none", color: "black"}}>Details</Link> 
             </button>
             </div>
           </div>

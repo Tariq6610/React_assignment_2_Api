@@ -21,7 +21,6 @@ export default function Product() {
       });
   }, [id]);
 
-  console.log(data && data);
 
   if (loading) {
     return (

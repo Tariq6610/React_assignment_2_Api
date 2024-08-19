@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Getdata from "./Api";
-import Card from "./card";
+import Card from "./Card";
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Layout(){
