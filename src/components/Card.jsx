@@ -24,7 +24,7 @@ export default function Card(props){
             </div>
             <div>
             <button className="btn btn-warning fw-bold">
-             <Link to={`Product/${data.id}`} style={{textDecoration: "none", color: "black"}}>Details</Link> 
+             <Link to={`product/${data.id}`} style={{textDecoration: "none", color: "black"}}>Details</Link> 
             </button>
             </div>
           </div>
