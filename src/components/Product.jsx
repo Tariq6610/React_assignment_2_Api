@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "../App.css"
 
 export default function Product() {
   const [data, setData] = useState(null);
@@ -49,7 +50,7 @@ export default function Product() {
         <div className="col-md-6">
           <div className="row">
             <div className="col-12">
-              <h1>{data.name}</h1>
+              <h1 className="name ">{data.name}</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
                 nemo magni in exercitationem sequi temporibus dignissimos.
@@ -70,7 +71,7 @@ export default function Product() {
         </div>
         <hr className="my-4" />
         <div className="col-md-6">
-          <h1>Method</h1>
+          <h1 className="name">Method</h1>
           <ul>
             {data.instructions.map((val, ind) => (
               <li key={ind}>{val}</li>
@@ -78,7 +79,7 @@ export default function Product() {
           </ul>
         </div>
         <div className="col-md-6">
-          <h1>Ingredients</h1>
+          <h1 className="name">Ingredients</h1>
           <ul>
             {data.ingredients.map((val, ind) => (
               <li key={ind}>{val}</li>
