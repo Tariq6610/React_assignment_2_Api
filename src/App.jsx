@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 import Getdata from './components/Api.jsx'
 import {createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider} from "react-router-dom"
 import Layout from './components/RootLayout.jsx'
-import Product from './components/product.jsx'
+import Product from './components/Product.jsx'
 
 
 const router = createBrowserRouter(
