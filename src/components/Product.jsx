@@ -25,7 +25,7 @@ export default function Product() {
 
   if (loading) {
     return (
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-4">
         <div className="spinner-border" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
@@ -42,7 +42,7 @@ export default function Product() {
       <div className="row p-4">
         <div className="col-md-6 span-2">
           <img
-            className="w-100"
+            className="w-100 mb-4"
             src={`${data.image}`}
             alt="img of food"
           />
