@@ -20,7 +20,7 @@ export default function Product() {
         setError(err);
         setLoading(false);
       });
-  }, [id]);
+  }, []);
 
 
   if (loading) {
